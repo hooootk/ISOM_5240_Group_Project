@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 # Configuration Constants
 # ============================================
 MODEL_A_NAME = "facebook/opt-350m"
-MODEL_B_PATH = "./models/distilbert-base-uncased-beavertails-final"
+MODEL_B_PATH = "./distilbert-base-uncased-beavertails-final"
 
 
 # ============================================
