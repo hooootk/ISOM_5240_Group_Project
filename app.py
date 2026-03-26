@@ -9,13 +9,8 @@ import warnings
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import os
 
-# Suppress warnings
 warnings.filterwarnings('ignore')
 
-
-# ============================================
-# Configuration Constants
-# ============================================
 MODEL_A_NAME = "facebook/opt-350m"
 MODEL_B_PATH = "./distilbert-base-uncased-beavertails-final"
 
@@ -146,9 +141,6 @@ def init_session_state():
         st.session_state.current_prompt = None
 
 
-# ============================================
-# Clear Output Function
-# ============================================
 def clear_output():
     """Clear all output content from session state"""
     st.session_state.generated_content = None
