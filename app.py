@@ -10,7 +10,7 @@ st.set_page_config(page_title="ABCDEFG", page_icon="🛡️")
 st.title("ABCDEFG")
 
 # 模型路径
-MODEL_B_PATH = "./models/distilbert-base-uncased-beavertails-final"
+MODEL_B_PATH = "./distilbert-base-uncased-beavertails-final"
 
 # 检查模型B是否存在
 if not os.path.exists(MODEL_B_PATH):
